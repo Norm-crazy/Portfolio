@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Norm's Portfolio</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+<!--navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://github.com/Snakevs2" id="brand">Snakevs2</a>
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a id="text" href="#about">About</a></li>
+              <li><a id="text" href="#exp">Experience</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#pro">All Projects</a></li>
+                </ul>
+              </li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container" id="intro">
+      <img id="self-img" src="img/profile.jpg">
+      <h1 class="txt-head">Hello, my name is Norman.</h1>
+      <br>
+    </div>
+    <div id="about">
+      <div class="container">
+        <section><h2>About Me</h2></section>
+        <hr>
+        <p id="about-text">
+          Hello, as stated my name is Norman. I started learning Front-End development a few years ago and enjoy coding and creating content.
+          I am self-taught in HTML5, CSS3, JavaScript, including Bootstraps and jQuery. I have some experience with API, JSON, and Firebase and am always looking to learn more.
+          I have learned from Codecademy, Udemy, Lynda, and freecodecamp.com.
+        </p>
+      </div>
+    </div>
+    <div id="exp">
+      <section><h2>Experience</h2></section>
+      <hr>
+      <p id="exp-text">
+        While attending college in 2004 at Texas State Technical College (TSTC) in Waco Tx, I got my first job at a Honda dealership as a minor Service Technician.
+         In 2007 I changed paths to Techincal Support roles, providing technical support and customer service. I have provided support for:
+      </p>
+      <ul id="jobs">
+        <li>Xbox Support</li>
+        <li>Dell</li>
+        <li>Sears</li>
+        <li>Blizzard Entertainment</li>
+        <li>Electronic Arts</li>
+        <li>Geek Squad</li>
+        <li>Homeaway</li>
+      </ul>
+      <p id="exp-text">
+        While working in the Technical Support roles, I have gained experience with Windows OS, Salesforce, Microsoft Office, Google Docs, Hangouts and Chrome OS and Data Entry.
+        I was a Subject Matter Expert in one of my recent roles, which was providing support to Tier 1 agents and tracking production floors adherence with coachings and side-by-sides.
+      </p>
+    </div>
+    <div id="pro">
+      <section><h2>Projects</h2></section>
+      <hr>
+      <div class="container text-center">
+        <button type="button" class="center" id="htmlBtn">HTML/CSS</button>
+        <button type="button" class="center" id="jsBtn">JavaScript</button>
+        <button type="button" class="center" id="allbtn">Show All</button>
+      </div>
+      <div class="container">
+        <br>
+        <p>(The two buttons above will allow you to hide some of the projects. The HTML/CSS button will only show projects with no JavaScript, while the JavaScript button will only show project that has JavaScript.)</p>
+        <div class="row" id="img-grid">
+          <div class="col-lg-4 col-sm-4 html">
+            <a href="https://snakevs2.github.io"><img class="thumbnail" src="img/1st-site.png"></a>
+          </div>
+          <div class="col-lg-4 col-sm-4 js">
+            <a href="https://snakevs2.github.io/demostore/"><img class="thumbnail" src="img/2nd-site.png"></a>
+          </div>
+          <div class="col-lg-4 col-sm-4 html">
+            <a href="https://snakevs2.github.io/Godofwar-Fanpage/"><img class="thumbnail" src="img/3rd-site.png"></a>
+          </div>
+          <div class="col-lg-4 col-sm-4 html">
+            <a href="https://snakevs2.github.io/Survey-Form/"><img class="thumbnail" src="img/suvry-site.png"></a>
+          </div>
+          <div class="col-lg-4 col-sm-4 js">
+            <a href="https://snakevs2.github.io/Todo/"><img class="thumbnail" id="thumbImgs" src="img/todo.png"></a>
+          </div>
+          <div class="col-lg-4 col-sm-4 js">
+            <a href="https://snakevs2.github.io/Score/"><img class="thumbnail" id="thumbImgs" src="img/score.png"></a>
+          </div>
+          <div class="col-lg-4 col-sm-4 js">
+            <a href="https://snakevs2.github.io/Colors/"><img class="thumbnail" src="img/colors.png"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div id="map">
+              <h3>I am located in Austin, Tx.</h3>
+              <p>Due to the API limit cost, I decided to use an iframe embed map.</p>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311718.7708849835!2d-97.85830644379429!3d30.321403695686744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C+TX!5e0!3m2!1sen!2sus!4v1533475264570" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6" id="contact">
+            <h3>Contact Info</h3>
+            <ul>
+              <li>You can reach me by email here <a class="fa fa-envelope-o" href="mailto:normanhiggs@yahoo.com" aria-hidden="true" id="email-img"></a>. Email is normanhiggs@yahoo.com</li>
+              <li>Here is my GitHub page <a href="https://github.com/Snakevs2"><img id="gitImg" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
+              <li>You can view my Linkedin page here <a href="https://www.linkedin.com/in/norman-higgs-28845896"><img id="link-img" src="img/linkedin.png"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
