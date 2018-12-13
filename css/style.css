@@ -1,0 +1,289 @@
+h2, h3, p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section {
+  padding-top: 35px;
+}
+
+.hr-style {
+  border: 1px solid black;
+  opacity: 0.3;
+  width: 140px;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+  color: #333;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, .075);
+  outline: 0;
+}
+
+/* Navbar */
+#brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;
+  /* 50% of your logo width */
+  display: block;
+}
+
+/* Header */
+#intro {
+  width: auto;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.txt-head {
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#self-img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 85px;
+  width: 250px;
+}
+
+/* About Me */
+#about {
+  width: 50%;
+  background: -webkit-linear-gradient(to top, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #f1f1f3, #58585885);
+  padding-bottom: 50px;
+  margin-top: 15px;
+  border: 1px solid black;
+  transition: border-width 0.6s linear;
+}
+
+#about:hover {
+  border-width: 10px;
+  border-radius: 6px;
+}
+
+#about-text {
+  margin: 0 auto;
+  width: 545px;
+}
+
+/* Experience */
+#exp {
+  width: 50%;
+  background: -webkit-linear-gradient(to top, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #58585885, #f1f1f3);
+  margin-bottom: 40px;
+  margin-top: 15px;
+  border: 1px solid black;
+  transition: border-width 0.6s linear;
+}
+
+#exp:hover {
+  border-width: 10px;
+  border-radius: 6px;
+}
+
+#exp-text {
+  margin: 0 auto;
+  padding-bottom: 25px;
+  width: 545px;
+}
+
+#jobs {
+  list-style: none;
+  text-align: center;
+  margin-left: -50px;
+  margin-top: -16px;
+  color: black;
+}
+
+/* Projects */
+#pro {
+  background-color: #d7d7d7;
+  padding-bottom: 50px;
+}
+
+#btns {
+  margin: 0 auto;
+}
+
+button {
+  background-color: black;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  color: #6AF7A3;
+  border-top: 3px solid #6AF7A3;
+}
+
+button:nth-of-type(2) {
+  background-color: black;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  color: #32E3FE;
+  border-top: 3px solid #E52828;
+}
+
+button:nth-of-type(3) {
+  background-color: black;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  color: white;
+  border-top: 3px solid white;
+}
+
+/*Grid*/
+.grid-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box>img {
+  width: 250px;
+  margin: auto;
+}
+
+.box {
+  padding: 20px;
+  margin: 20px;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px groove gray;
+  border-radius: .25rem;
+}
+
+a:hover, a:visited {
+  color: #000;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
+
+.card-title {
+  margin-bottom: .75rem;
+  color: #000
+}
+
+/* Footer */
+.footer {
+  height: 100%;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #000000, #434343);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #000000, #434343);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  \
+}
+
+.footer, ul {
+  color: white;
+  list-style: none;
+  text-align: center;
+}
+
+.footer li {
+  display: inline;
+  margin: 15px 15px;
+}
+
+.mediaIcons {
+  margin-top: 15px;
+}
+
+#email-img {
+  font-size: 17px;
+  color: white;
+}
+
+#gitImg {
+  border-radius: 50%;
+  width: 30px;
+}
+
+#link-img {
+  width: 25px;
+}
+
+/*Media*/
+/* Screen media for 4K */
+@media screen and (min-width: 2000px) {
+  #email-img {
+    font-size: 30px;
+  }
+
+  p, li {
+    font-size: 22px;
+  }
+
+  h2, h3 {
+    font-size: 45px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  #brand {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width:120px) and (max-width:420.5px) {
+  .grid-wrapper {
+    margin: 0 0 0 -3em;
+    width: 15px;
+  }
+
+  .footer li {
+    display: contents
+  }
+
+  #exp h2 {
+    font-size: 24px;
+  }
+
+  .hr-style {
+    width: 121px;
+  }
+}

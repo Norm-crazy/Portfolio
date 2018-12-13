@@ -1,142 +1,236 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="media.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <title>Norm's Portfolio</title>
-  </head>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<!--navbar-->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="https://github.com/Snakevs2" id="brand">Snakevs2</a>
-        </div>
-        <div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li><a id="text" href="#about">About</a></li>
-              <li><a id="text" href="#exp">Experience</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#pro">All Projects</a></li>
-                </ul>
-              </li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic|Source+Code+Pro:400,700" rel="stylesheet" type="text/css">
+  <title>Norm's Portfolio</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!--navbar-->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="https://github.com/Snakevs2" id="brand">Snakevs2</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a id="text" href="#about">About</a></li>
+            <li><a id="text" href="#exp">Experience</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#pro">All Projects</a></li>
+              </ul>
+            </li>
+            <li><a href="#con">Contact</a></li>
+          </ul>
         </div>
       </div>
-    </nav>
-    <div class="container" id="intro">
-      <img id="self-img" src="img/profile.jpg">
-      <h1 class="txt-head">Hello, my name is Norman.</h1>
+    </div>
+  </nav>
+  <div class="container" id="intro">
+    <img id="self-img" src="profile.jpg">
+    <h1 class="txt-head">Hi, my name is Norman. I am a Junior Front End Developer. </h1>
+    <br>
+  </div>
+  <!--About Me-->
+  <div class="container" id="about">
+    <section>
+      <h2>About Me</h2>
+    </section>
+    <hr class="hr-style">
+    <p id="about-text">Hello, as stated my name is Norman. I started learning Front-End development a few years ago and enjoy coding and creating content. I am self-taught in HTML5, CSS3, JavaScript, including Bootstraps and jQuery. I have some
+      experience with API, JSON, and Firebase and am always looking to learn more. I have learned from online-courses at Codecademy, Udemy, Lynda, and freecodecamp.com. I attended college in Waco, TX at Texas State Technical College (TSTC), for
+      Automotive Technology. I have been in Technical Support roles for most of my career. I started learning Web Development and enjoyed what I was learning, and what the learning programs had me create. I aim to be a Senior Front End Developer
+      one day and move to Full Stack Developer.</p>
+  </div>
+  <!-- Experience -->
+  <div class="container" id="exp">
+    <section>
+      <h2>Experience</h2>
+    </section>
+    <hr class="hr-style">
+    <p id="exp-text">My professional experience has been mostly in Technical Support roles, where I have provided technical and customer service for various companies on various products. My first job was at a local Honda dealership where I worked
+      as a Minor Service Technician. Shortly after I changed roles to work as a Technical Support Representative, I have provided support for some of the following companies: </p>
+    <ul id="jobs">
+      <li>Xbox Support</li>
+      <li>Dell</li>
+      <li>Sears</li>
+      <li>Blizzard Entertainment</li>
+      <li>Electronic Arts</li>
+      <li>Geek Squad</li>
+      <li>Homeaway</li>
+    </ul>
+    <p id="exp-text">
+      While working in the Technical Support, I have gained experience with Windows OS, Salesforce, Microsoft Office, Google Docs, Hangouts, Chrome OS, and Data Entry. One of my recent positions was a Subject Matter Expert. My roles were to
+      provide support to the Tier 1 agents, tracking production floor’s adherence, take over Supervisor request calls, completed side-by-sides plus provide coachings tips for the Tier 1 agents.<br>However, I do have personal and educational
+      experience with creating websites and small apps. I have learned from Lynda, Udemy, Codecademy, and other online courses and have received certificates that I have attached to my LinkedIn page.</p>
+  </div>
+  <!--Project and sites I created-->
+  <div class="container" id="pro">
+    <section>
+      <h2>Projects</h2>
+    </section>
+    <hr class="hr-style">
+    <div class="container text-center">
+      <button type="button" class="center" id="htmlBtn">HTML/CSS</button>
+      <button type="button" class="center" id="jsBtn">JavaScript</button>
+      <button type="button" class="center" id="allbtn">Show All</button>
+    </div>
+    <div class="container">
       <br>
-    </div>
-    <div id="about">
-      <div class="container">
-        <section><h2>About Me</h2></section>
-        <hr>
-        <p id="about-text">
-          Hello, as stated my name is Norman. I started learning Front-End development a few years ago and enjoy coding and creating content.
-          I am self-taught in HTML5, CSS3, JavaScript, including Bootstraps and jQuery. I have some experience with API, JSON, and Firebase and am always looking to learn more.
-          I have learned from Codecademy, Udemy, Lynda, and freecodecamp.com.
-        </p>
-      </div>
-    </div>
-    <div id="exp">
-      <section><h2>Experience</h2></section>
-      <hr>
-      <p id="exp-text">
-        While attending college in 2005 at Texas State Technical College (TSTC) in Waco Tx, I got my first job at a Honda dealership as a minor Service Technician.
-         In 2007 I changed paths to Techincal Support roles, providing technical support and customer service. I have provided support for:
-      </p>
-      <ul id="jobs">
-        <li>Xbox Support</li>
-        <li>Dell</li>
-        <li>Sears</li>
-        <li>Blizzard Entertainment</li>
-        <li>Electronic Arts</li>
-        <li>Geek Squad</li>
-        <li>Homeaway</li>
-      </ul>
-      <p id="exp-text">
-        While working in the Technical Support roles, I have gained experience with Windows OS, Salesforce, Microsoft Office, Google Docs, Hangouts and Chrome OS and Data Entry.
-        I was a Subject Matter Expert in one of my recent roles, which was providing support to Tier 1 agents and tracking production floors adherence with coachings and side-by-sides.
-      </p>
-    </div>
-    <div id="pro">
-      <section><h2>Projects</h2></section>
-      <hr>
-      <div class="container text-center">
-        <button type="button" class="center" id="htmlBtn">HTML/CSS</button>
-        <button type="button" class="center" id="jsBtn">JavaScript</button>
-        <button type="button" class="center" id="allbtn">Show All</button>
-      </div>
-      <div class="container">
-        <br>
-        <p>(The two buttons above will allow you to hide some of the projects. The HTML/CSS button will only show projects with no JavaScript, while the JavaScript button will only show project that has JavaScript.)</p>
-        <div class="row" id="img-grid">
-          <div class="col-lg-4 col-sm-4 html">
-            <a href="https://snakevs2.github.io"><img class="thumbnail" src="img/1st-site.PNG"></a>
-          </div>
-          <div class="col-lg-4 col-sm-4 js">
-            <a href="https://snakevs2.github.io/demostore/"><img class="thumbnail" src="img/2nd-site.PNG"></a>
-          </div>
-          <div class="col-lg-4 col-sm-4 html">
-            <a href="https://snakevs2.github.io/Godofwar-Fanpage/"><img class="thumbnail" src="img/3rd-site.PNG"></a>
-          </div>
-          <div class="col-lg-4 col-sm-4 html">
-            <a href="https://snakevs2.github.io/Survey-Form/"><img class="thumbnail" src="img/suvry-site.PNG"></a>
-          </div>
-          <div class="col-lg-4 col-sm-4 js">
-            <a href="https://snakevs2.github.io/Todo/"><img class="thumbnail" id="thumbImgs" src="img/todo.PNG"></a>
-          </div>
-          <div class="col-lg-4 col-sm-4 js">
-            <a href="https://snakevs2.github.io/Score/"><img class="thumbnail" id="thumbImgs" src="img/score.PNG"></a>
-          </div>
-          <div class="col-lg-4 col-sm-4 js">
-            <a href="https://snakevs2.github.io/Colors/"><img class="thumbnail" src="img/colors.PNG"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <div id="map">
-              <h3>I am located in Austin, Tx.</h3>
-              <p>Due to the API limit cost, I decided to use an iframe embed map.</p>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311718.7708849835!2d-97.85830644379429!3d30.321403695686744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C+TX!5e0!3m2!1sen!2sus!4v1533475264570" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <p>(The two buttons above will allow you to hide some of the projects. The HTML/CSS button will only show projects with no JavaScript, while the JavaScript button will only show projects that use JavaScript.)</p>
+      <!--Grid of sites -->
+      <div class="zone grid-wrapper">
+        <!--site 1 -->
+        <a href="https://snakevs2.github.io/">
+          <div class="card box box zone html" style="width: 30rem;">
+            <img class="card-img-top html" src="img/1st-site.PNG" alt="1st site">
+            <div class="card-body text-center text-center">
+              <h5 class="card-title">First Site</h5>
+              <p class="card-text">This site is the first site that I created two years ago, I have learned a lot since then. After Learning what I know today, if I were to recreate this site it would look a lot different.</p>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6" id="contact">
-            <h3>Contact Info</h3>
-            <ul>
-              <li>You can reach me by email here <a class="fa fa-envelope-o" href="mailto:normanhiggs@yahoo.com" aria-hidden="true" id="email-img"></a>. Email is normanhiggs@yahoo.com</li>
-              <li>Here is my GitHub page <a href="https://github.com/Snakevs2"><img id="gitImg" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
-              <li>You can view my Linkedin page here <a href="https://www.linkedin.com/in/norman-higgs-28845896"><img id="link-img" src="img/linkedin.png"></a></li>
-            </ul>
+        </a>
+        <!--site 2 -->
+        <a href="https://snakevs2.github.io/demostore/">
+          <div class="card box box zone js" style="width: 30rem;">
+            <img class="card-img-top" src="img/2nd-site.PNG" alt="2nd site">
+            <div class="card-body text-center">
+              <h5 class="card-title">Second Site</h5>
+              <p class="card-text">This site is the second site that I created. I started working on this site in October 2017 and finished it in January 2018. This site contains images, buttons, alerts and a demo store selling video games.</p>
+            </div>
           </div>
+        </a>
+        <!--site 3 -->
+        <a href="https://snakevs2.github.io/Godofwar-Fanpage/">
+          <div class="card box box zone html" style="width: 30rem;">
+            <img class="card-img-top" src="img/3rd-site.PNG" alt="3rd site">
+            <div class="card-body text-center">
+              <h5 class="card-title">God of War fan page</h5>
+              <p class="card-text">I created this site earlier this year and was a project for FreeCodeCamp.org as a Product Landing Page. I choose a popular Video game God of War as the product.</p>
+            </div>
+          </div>
+        </a>
+        <!--site 4 -->
+        <a href="https://snakevs2.github.io/Survey-Form/">
+          <div class="card box box zone html" style="width: 30rem;">
+            <img class="card-img-top" src="img/suvry-site.PNG" alt="Form">
+            <div class="card-body text-center">
+              <h5 class="card-title">Survey Form</h5>
+              <p class="card-text">This site is another site I created for FreeCodeCamp.org. This site is a simple survey form page with different types of inputs like radio, dropdown list, checkboxes.</p>
+            </div>
+          </div>
+        </a>
+        <!--site 5 -->
+        <a href="https://snakevs2.github.io/Todo/">
+          <div class="card box box zone js" style="width: 30rem;">
+            <img class="card-img-top" src="img/todo.PNG" alt="List">
+            <div class="card-body text-center">
+              <h5 class="card-title">TO-DO List</h5>
+              <p class="card-text">I created this site as a project for an online course off Udemy.com. This site uses HTML, CSS, and JavaScript. This was one of my first projects using Udemy.</p>
+            </div>
+          </div>
+        </a>
+        <!--Site 6-->
+        <a href="https://snakevs2.github.io/Score/">
+          <div class="card box box zone js" style="width: 30rem;">
+            <img class="card-img-top" src="img/score.PNG" alt="Score card">
+            <div class="card-body text-center">
+              <h5 class="card-title">Score Keeper</h5>
+              <p class="card-text">This was another project for Udemy.com, for the same course as TO-DO List. This site keeps track of points for two players, the max number of points can be changed and can be reset without having to reload the
+                page.</p>
+            </div>
+          </div>
+        </a>
+        <!--Site 7-->
+        <a href="https://snakevs2.github.io/Colors/">
+          <div class="card box box zone js" style="width: 30rem;">
+            <img class="card-img-top" src="img/colors.PNG" alt="RGB game">
+            <div class="card-body text-center">
+              <h5 class="card-title">RGB Game</h5>
+              <p class="card-text">This project was from the same course on Udemy.com, The Web Developer Bootcamp. This site is to choose the correct color base on the RGB value at the top of the site.</p>
+            </div>
+          </div>
+        </a>
+        <!-- End of sites grid -->
+      </div>
+    </div>
+  </div>
+  <!--Map & Contact -->
+  <div class="container" id="mapform">
+    <h2 id="con">Contact Info</h2>
+    <hr class="hr-style">
+    <div class="row">
+      <div class="col--6 col-md-6">
+        <div id="mapInfo">
+          <h3>I am located in Austin, Tx.</h3>
+          <p>Due to the API limit cost, I decided to use an iframe embed map.</p>
+          <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311718.7708849835!2d-97.85830644379429!3d30.321403695686744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C+TX!5e0!3m2!1sen!2sus!4v1533475264570"
+            frameborder="0" style="border:0"></iframe>
+        </div>
+      </div>
+      <div class="col-xs-6 col-md-6">
+        <!-- Contact Forum - is connected to Firebase-->
+        <div class="contact-form">
+          <div class="container" id="contact">
+            <form class="contact" id=contactForm>
+              <h3>Contact form</h3>
+              <div class="alert">Your message has been sent</div>
+              <div class="form-group" id="nam-em">
+                <label>Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group" id="nam-em">
+                <label>Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label>Message:</label>
+                <textarea id="message" class="form-control" rows="8" cols="80"></textarea>
+              </div>
+              <div class="sub-btn">
+                <button class="btn-hover" id="subBTn" type="submit" name="button">Submit</button>
+              </div>
+            </form>
+          </div>
+          <p>(Contact form is connected to a Firebase Database to collect the messages.)</p>
         </div>
       </div>
     </div>
-    <script src="script.js"></script>
-  </body>
+  </div>
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <ul class="mediaIcons">
+        <li><a class="glyphicon glyphicon-envelope" href="mailto:normanhiggs@yahoo.com" aria-hidden="true" id="email-img"></a> Email is normanhiggs@yahoo.com</li>
+        <li><a href="https://github.com/Snakevs2"><img id="gitImg" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png"></a></li>
+        <li><a href="https://www.linkedin.com/in/norman-higgs-28845896"><img id="link-img" src="linkedin.png"></a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+
 </html>
