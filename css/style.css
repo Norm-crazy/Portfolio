@@ -77,7 +77,7 @@ section {
 
 #about-text {
   margin: 0 auto;
-  width: 43vw;
+  width: 100%;
 }
 
 /* Experience */
@@ -100,7 +100,7 @@ section {
 #exp-text {
   margin: 0 auto;
   padding-bottom: 25px;
-  width: 43vw;
+  width: 100%;
 }
 
 #jobs {
@@ -272,6 +272,7 @@ a:link {
 @media screen and (min-width:120px) and (max-width:420.5px) {
   .grid-wrapper {
     margin: 0 0 0 -3em;
+    display: inline-block;
     width: 15px;
   }
 
