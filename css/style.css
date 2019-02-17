@@ -8,7 +8,7 @@ h3 {
 }
 
 section {
-  padding-top: 35px;
+  padding-top: 55px;
 }
 
 .hr-style {
@@ -25,23 +25,23 @@ section {
 }
 
 /* Navbar */
-#brand {
-  position: absolute;
-  left: 50%;
-  margin-left: -50px !important;
-  /* 50% of your logo width */
-  display: block;
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: black !important;
+  z-index: 1;
 }
 
-/* Header */
+/* Intro */
 #intro {
-  width: auto;
   background: #000000;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #434343, #000000);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #434343, #000000);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-top: 50px;
 }
 
 .txt-head {
@@ -54,8 +54,8 @@ section {
   border-radius: 50%;
   display: block;
   margin: auto;
-  margin-top: 85px;
   width: 250px;
+  padding-top: 17px;
 }
 
 /* About Me */
@@ -65,7 +65,7 @@ section {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #f1f1f3, #58585885);
   padding-bottom: 50px;
-  margin-top: 15px;
+  margin-top: 35px;
   border: 1px solid black;
   transition: border-width 0.6s linear;
 }
@@ -145,75 +145,50 @@ button:nth-of-type(3) {
   border-top: 3px solid white;
 }
 
-/*Grid*/
-.grid-wrapper {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-}
+/* Grid Projects*/
 
-.box>img {
-  width: 250px;
+#new-store {
+  width: 71%;
   margin: auto;
+  margin-bottom: 30px;
+}
+#new-store a{
+  margin-bottom: 15px;
 }
 
-.box {
-  padding: 20px;
-  margin: 20px;
+#new-sticker{
+  position: absolute;
+  width: 75px;
 }
 
-.card {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px groove gray;
-  border-radius: .25rem;
+#newstore-text {
+  width: 25em;
 }
 
-a:hover, a:visited {
-  color: #000;
+.newimg{
+  width: 305px;
+  height: 170px;
 }
 
-a:link {
-  text-decoration: none;
+#grid {
+  margin-left: 50px;
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+#cards {
+  margin-bottom: 15px;
 }
 
-.card-body {
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
+.card-text {
+  text-align: inherit;
 }
-
-.card-img-top {
-  width: 100%;
-  border-top-left-radius: calc(.25rem - 1px);
-  border-top-right-radius: calc(.25rem - 1px);
-}
-
-.card-title {
-  margin-bottom: .75rem;
-  color: #000
+#grid-text {
+  height: 215px;
 }
 
 /* Footer */
 .footer {
   height: 100%;
-  background: #000000;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #000000, #434343);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #000000, #434343);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  \
+  background: black;
 }
 
 .footer, ul {
@@ -246,36 +221,61 @@ a:link {
 }
 
 /*Media*/
-/* Screen media for 4K */
 @media screen and (min-width: 2000px) {
   #email-img {
     font-size: 30px;
   }
 
   p, li {
-    font-size: 22px;
+    font-size: 25px;
   }
 
-  h2, h3 {
-    font-size: 45px;
+  #text-4k {
+    font-size: 3rem;
   }
 
   button {
     font-size: 18px;
   }
 
-  #brand {
-    font-size: 22px;
+  .navbar a {
+    font-size: 25px;
+  }
+  #grid-text {
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1199.5px) {
+  #newstore-text {
+    width: 18em;
+  }
+  #grid {
+    margin-left: 120px;
+  }
+}
+@media screen and (min-width:192px) and (max-width:991.5px) {
+  .newimg, #new-store-img{
+    width: 100%;
+  }
+  #newstore-text {
+    width: 100%;
+  }
+}
+@media screen and (min-width:192px) and (max-width:767.5px) {
+  #about, #exp{
+    width: 75%
+  }
+  #map {
+    width: 100%;
+    margin-left: 0px;
+  }
+  #new-store{
+    width: 100%;
   }
 }
 
 @media screen and (min-width:120px) and (max-width:420.5px) {
-  .grid-wrapper {
-    margin: 0 0 0 -3em;
-    display: inline-block;
-    width: 15px;
-  }
-
   .footer li {
     display: contents
   }
@@ -286,5 +286,17 @@ a:link {
 
   .hr-style {
     width: 121px;
+  }
+}
+
+@media screen and (min-width:767px) and (max-width:991.5px) {
+  #grid {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width:120px) and (max-width:766.5px) {
+  #grid {
+    margin-left: -15px;
   }
 }

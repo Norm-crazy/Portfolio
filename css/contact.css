@@ -1,14 +1,19 @@
+.contact-grid{
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  grid-gap: 15px;
+}
+
 #mapInfo {
   padding-bottom: 20px;
-  width: 500px;
 }
 
 #map {
-  width: 33em;
-  height: 24em
+  width: 100%;
+  height: 24em;
 }
 
-#mapform {
+.mapform {
   margin: 15px auto;
   border-style: groove;
   border-color: silver;
@@ -32,7 +37,6 @@
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: 1px 2px 2px #ccc;
   border: 1px solid black;
-  width: calc(100% - 50px);
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -43,11 +47,6 @@
   text-align: center;
   text-shadow: 1px 1px 1px #000;
   margin-top: 1px;
-}
-
-#nam-em {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 #name, #email {
@@ -109,69 +108,4 @@ textarea.form-control {
   color #fff;
   margin-bottom: 10px;
   display: none;
-}
-
-/*
-@media screen and (min-width:992px) and (max-width:1199.5px){
-  #contact {
-    max-width: 385px;
-  }
-}
-*/
-@media screen and (min-width:561px) and (max-width:991.5px) {
-  #mapInfo {
-    width: 60vw;
-    margin: auto;
-  }
-
-  #map {
-    width: 100%;
-    margin-left: -31px;
-  }
-
-  #contact {
-    margin: 10px 29%;
-    width: calc(100%);
-  }
-
-  #name, #email {
-    width: 100%;
-  }
-
-  textarea.form-control {
-    height: 72px;
-  }
-
-  #subBTn {
-    width: calc(100% - 50px);
-  }
-}
-
-@media screen and (min-width:120px) and (max-width:560.5px) {
-  #mapInfo {
-    width: 60vw;
-    margin: auto;
-  }
-
-  #map {
-    width: 27rem;
-    margin-left: -39px;
-  }
-
-  #contact {
-    margin: 10px -6px;
-    width: calc(274px);
-  }
-
-  #name, #email {
-    width: 100%;
-  }
-
-  textarea.form-control {
-    height: 72px;
-  }
-
-  #subBTn {
-    width: calc(100% - 50px);
-  }
 }
