@@ -25,15 +25,14 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Times New Roman", Georgia, serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #contact {
-  background: #bdc3c7;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: -webkit-linear-gradient(to top, #434343, #000000);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  background: linear-gradient(to top, #434343, #000000);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: 1px 2px 2px #ccc;
   border: 1px solid black;
